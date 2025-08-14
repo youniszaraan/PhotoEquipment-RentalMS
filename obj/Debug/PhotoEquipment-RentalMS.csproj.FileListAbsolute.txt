@@ -1,0 +1,13 @@
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\bin\Debug\PhotoEquipment-RentalMS.exe.config
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\bin\Debug\PhotoEquipment-RentalMS.exe
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\bin\Debug\PhotoEquipment-RentalMS.pdb
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\bin\Debug\Guna.UI2.dll
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment-RentalMS.csprojAssemblyReference.cache
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment_RentalMS.Properties.Resources.resources
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment-RentalMS.csproj.GenerateResource.cache
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment-RentalMS.csproj.CoreCompileInputs.cache
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment-RentalMS.csproj.CopyComplete
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment-RentalMS.exe
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment-RentalMS.pdb
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment_RentalMS.LoginForm.resources
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment_RentalMS.ServerName.resources
