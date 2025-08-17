@@ -11,3 +11,5 @@ C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment-Re
 C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment-RentalMS.pdb
 C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment_RentalMS.LoginForm.resources
 C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment_RentalMS.ServerName.resources
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment_RentalMS.MainForm.resources
+C:\Users\Qursan\source\repos\PhotoEquipment-RentalMS\obj\Debug\PhotoEquipment_RentalMS.EmployeesForm.resources

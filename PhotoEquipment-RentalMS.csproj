@@ -52,12 +52,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerForm.Designer.cs">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBconnection.cs" />
+    <Compile Include="EmployeesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeesForm.Designer.cs">
+      <DependentUpon>EmployeesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipment.Designer.cs">
+      <DependentUpon>Equipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpensesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpensesForm.Designer.cs">
+      <DependentUpon>ExpensesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GaranteeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GaranteeForm.Designer.cs">
+      <DependentUpon>GaranteeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentForm.Designer.cs">
+      <DependentUpon>PaymentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhotographerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhotographerForm.Designer.cs">
+      <DependentUpon>PhotographerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RentalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RentalForm.Designer.cs">
+      <DependentUpon>RentalForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ServerName.cs">
       <SubType>Form</SubType>
@@ -67,8 +121,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EmployeesForm.resx">
+      <DependentUpon>EmployeesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainform.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ServerName.resx">
       <DependentUpon>ServerName.cs</DependentUpon>
@@ -81,6 +141,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -95,6 +156,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\High Contrast Photography Business Logo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\High Contrast Photography Business Logo %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\High Contrast Photography Business Logo %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\High Contrast Photography Business Logo %281%293.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,7 +12,7 @@ namespace PhotoEquipment_RentalMS
 {
     public partial class ServerName : Form
     {
-        public ServerName()
+        public  ServerName()
         {
             InitializeComponent();
         }
@@ -24,9 +24,9 @@ namespace PhotoEquipment_RentalMS
             string newServerName = dBconnection.ServerName;
             MessageBox.Show(newServerName);
             this.Hide();
-            LoginForm LoginForm = new LoginForm();
+            LoginForm LoginForm = new LoginForm(dBconnection);
             LoginForm.ShowDialog();
-
+              
         }
 
         private void ServerName_Load(object sender, EventArgs e)
