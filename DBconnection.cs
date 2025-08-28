@@ -1,29 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.SqlClient;
-
-namespace PhotoEquipment_RentalMS
+﻿using MySql.Data.MySqlClient;
+using System;
+using System.Data;
+using System.Windows.Forms;
+public class DBConnection
 {
-  public  class  DBconnection
-   {
-        public string ServerName;
-        public string sqlserver;
+    private MySqlConnection connection;
 
-     public DBconnection(String server)
-      {
-            ServerName = server;
-             sqlserver = $"Data Source= {  ServerName}; Initial Catalog=PhotoEquibment_RentalDB;Integrated Security=True";
+    public DBConnection()
+    {
+        string connectionString = "server=localhost;database=photoEquipmentRentalMS;uid=root;pwd=;";
+        connection = new MySqlConnection(connectionString);
+    }
 
-      }
-        // دالة ترجع اتصال جاهز
-        public  SqlConnection GetConnection()
+    public MySqlConnection GetConnection()
+    {
+        return connection;
+    }
+
+    public void Open()
+    {
+        if (connection.State == System.Data.ConnectionState.Closed)
         {
-            return new SqlConnection(sqlserver);
+            connection.Open();
         }
+    }
 
-
+    public void Close()
+    {
+        if (connection.State == System.Data.ConnectionState.Open)
+        {
+            connection.Close();
+        }
     }
 }

@@ -36,7 +36,7 @@ namespace PhotoEquipment_RentalMS
         private void Btnequipment_Click_1(object sender, EventArgs e)
         {
             pnltables.Controls.Clear();
-            Equipment equipmentForm = new Equipment(); // الفورم الذي أنشأته
+            EquipmentForm equipmentForm = new EquipmentForm(); // الفورم الذي أنشأته
             equipmentForm.TopLevel = false;
            /// equipmentForm.FormBorderStyle = FormBorderStyle.None;
             equipmentForm.Dock = DockStyle.Fill;
@@ -120,8 +120,20 @@ namespace PhotoEquipment_RentalMS
         private void Btnexpenses_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Btnhome_Click(object sender, EventArgs e)
+        {
+            LoginForm l=new LoginForm();
+            l.Show();
+            this.Hide();
+        }
+
+        private void Btndelivery_Click(object sender, EventArgs e)
+        {
+
             pnltables.Controls.Clear();
-           ExpensesForm Em = new ExpensesForm(); // الفورم الذي أنشأته
+            DeliveryForm Em = new DeliveryForm(); // الفورم الذي أنشأته
             Em.TopLevel = false;
             // Em.FormBorderStyle = FormBorderStyle.None;
             Em.Dock = DockStyle.Fill;
@@ -129,11 +141,49 @@ namespace PhotoEquipment_RentalMS
             Em.Show();
         }
 
-        private void Btnhome_Click(object sender, EventArgs e)
+        private void btnRentalDetails(object sender, EventArgs e)
         {
-            this.Hide();
-            Application.Exit();
-           
+
+            pnltables.Controls.Clear();
+           RentalDetailsForm Em = new RentalDetailsForm(); // الفورم الذي أنشأته
+            Em.TopLevel = false;
+            // Em.FormBorderStyle = FormBorderStyle.None;
+            Em.Dock = DockStyle.Fill;
+            pnltables.Controls.Add(Em);
+            Em.Show();
+        }
+
+        private void btnmaintenance(object sender, EventArgs e)
+        {
+            pnltables.Controls.Clear();
+            MaintenanceForm Em = new MaintenanceForm(); // الفورم الذي أنشأته
+            Em.TopLevel = false;
+            // Em.FormBorderStyle = FormBorderStyle.None;
+            Em.Dock = DockStyle.Fill;
+            pnltables.Controls.Add(Em);
+            Em.Show();
+        }
+
+        private void btnnotifications(object sender, EventArgs e)
+        {
+            pnltables.Controls.Clear();
+           NotificationsForm Em = new NotificationsForm(); // الفورم الذي أنشأته
+            Em.TopLevel = false;
+            // Em.FormBorderStyle = FormBorderStyle.None;
+            Em.Dock = DockStyle.Fill;
+            pnltables.Controls.Add(Em);
+            Em.Show();
+        }
+
+        private void btncategories(object sender, EventArgs e)
+        {
+            pnltables.Controls.Clear();
+           CategoriesForm Em = new CategoriesForm(); // الفورم الذي أنشأته
+            Em.TopLevel = false;
+            // Em.FormBorderStyle = FormBorderStyle.None;
+            Em.Dock = DockStyle.Fill;
+            pnltables.Controls.Add(Em);
+            Em.Show();
         }
     }
 }
